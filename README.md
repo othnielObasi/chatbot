@@ -1,4 +1,5 @@
 ChatterBot 🤖
+
 ChatterBot is an interactive AI chatbot designed to simulate human-like conversations. Built on top of OpenAI's advanced language model, it's perfect for a wide range of applications, from friendly user interactions to helping with customer queries.
 
 Table of Contents
