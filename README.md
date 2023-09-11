@@ -1,34 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+ChatterBot 🤖
+ChatterBot is an interactive AI chatbot designed to simulate human-like conversations. Built on top of OpenAI's advanced language model, it's perfect for a wide range of applications, from friendly user interactions to helping with customer queries.
 
-## Getting Started
+Table of Contents
+Features
+Technologies Used
+Setup and Installation
+Usage
+Contribute
 
-First, run the development server:
+Features
+Interactive Conversations: Engage in fluid, human-like conversations.
+Contextual Understanding: Keeps track of the conversation for contextually relevant responses.
+Multifunctional: Can be used for chat applications, support systems, and even gaming.
+Privacy Preserved: Doesn't store personal user data, ensuring user privacy.
+Technologies Used
+OpenAI GPT-3: The brain behind the bot.
+Next.js: For building the web application.
+Vercel: For deployment and hosting.
+Setup and Installation
+Clone the repository
 
-```bash
+bash
+Copy code
+git clone https://github.com/othnielObasi/chatterbot.git
+Navigate to the directory
+
+bash
+Copy code
+cd chatterbot
+Install dependencies
+
+bash
+Copy code
+npm install
+Set up environment variables
+
+Copy the .env.sample to .env and add your OpenAI API key:
+
+env
+Copy code
+OPENAI_API_KEY=your_api_key_here
+Run the application
+
+bash
+Copy code
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Usage
+Simply navigate to the chat interface and start typing. ChatterBot will respond to your queries in real-time. Feel free to chat about any topic!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Contribute
+Contributions are always welcome! See CONTRIBUTING.md for ways to get started.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
